@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    background: linear-gradient(to bottom, #272727, #6a0dad);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCF7F8;
+    font-family: "outfit", sans-serif;
+}
+#container {
+    background-color: #1B1725;
+    width: 80%;
+    height: 90%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center; 
+    align-items: end;
+}
+#teamo {
+    position: fixed;
+    margin-bottom: 30px;
+    font-size: 8vw;
+}
+#linha{
+    background-color: #6a0dad;
+    width: 100%;
+    height: 3px;
+    position: relative;
+    margin-bottom: 35px;
+}
+#timer {
+    position: fixed;
+    font-size: 3vw;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}

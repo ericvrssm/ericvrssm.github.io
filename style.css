@@ -7,34 +7,50 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FCF7F8;
     font-family: "outfit", sans-serif;
-}
-#container {
-    background-color: #1B1725;
-    width: 80%;
-    height: 90%;
-    border-radius: 8px;
     display: flex;
-    justify-content: center; 
-    align-items: end;
+    flex-direction: column;
+    gap: 30px;
 }
-#teamo {
-    position: fixed;
-    margin-bottom: 30px;
-    font-size: 8vw;
+
+.container1{
+    background-color: #272727;
+    border-radius: 8px;
+    width: 90vw;
+    max-width: 500px;
+    height: 40vh;
 }
-#linha{
-    background-color: #6a0dad;
+
+#carrosel{
+
+    display: fixed;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item active, .carousel-item{
     width: 100%;
-    height: 3px;
-    position: relative;
-    margin-bottom: 35px;
+    display: flex;
+    left: 35%;
 }
-#timer {
-    position: fixed;
-    font-size: 3vw;
-    margin-bottom: 10px;
-    white-space: nowrap;
-    overflow: hidden;
+img{
+    width: 130px;
+    max-width: 200px;
+    height: auto;
+}
+
+.container2{
+    background-color: #272727;
+    color: #FCF7F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 90vw;
+    height: 20vh;
+    max-width: 600px;
+    max-height: 300px;
+}
+text{
+    width: 2vw;
 }

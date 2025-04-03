@@ -1,4 +1,3 @@
-
 function updateTimer() {
     const now = new Date();
     const startDate = new Date('2024-03-25'); // Defina a data de início desejada (pode ser alterada)
